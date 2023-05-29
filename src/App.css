@@ -1,0 +1,46 @@
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px;
+  padding: 0px 0px;
+ 
+}
+
+.question_box{
+  background:#5F9E9E;
+  height:100vh;
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.question{
+  width:40%;
+  heigth:60%;
+  padding:30px;
+  background:black;
+}
+
+.buttons{
+  display:flex;
+  gap:10px;
+  margin-top:10px;
+}
+
+.options{
+  display:flex;
+  gap:5px;
+  flex-direction:column;
+  gap:10px;
+  margin:15px 0;
+}
+
+
+.submit{
+  background:orange;
+}
